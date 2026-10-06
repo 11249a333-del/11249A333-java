@@ -1,3 +1,22 @@
+/*AIM
+
+To write a Java program to demonstrate various String operations such as length, concatenation, case conversion, replacement, appending, comparison, startsWith() and endsWith().
+
+ALGORITHM
+
+Step-1: Start the program.
+Step-2: Create two strings str1 and str2 with values "Hello" and "Java".
+Step-3: Find the length of str1 using the length() method.
+Step-4: Concatenate str1 and str2 using the + operator.
+Step-5: Convert the concatenated string into uppercase using toUpperCase().
+Step-6: Convert the concatenated string into lowercase using toLowerCase().
+Step-7: Replace "Java" with "World" using the replace() method.
+Step-8: Append the strings using StringBuilder and its append() method.
+Step-9: Compare the strings using equals() and compareTo().
+Step-10: Check whether the string starts with "Hello" using startsWith().
+Step-11: Check whether the string ends with "Java" using endsWith().
+Step-12: Display all the results and stop the program
+PROGRAM:*/
 public class StringOperations {
     public static void main(String[] args) {
 
@@ -52,3 +71,19 @@ public class StringOperations {
                 + result.indexOf('o'));
     }
 }
+/*
+OUTPUT
+1. Length of str1: 5
+2. Concatenation: Hello Java
+3. Uppercase: HELLO JAVA
+4. Lowercase: hello java
+5. Replace: Hello World
+6. Append: Hello Java
+7. Compare using equals: false
+8. Compare using compareTo: -2
+9. Starts with 'Hello': true
+10. Ends with 'Java': true
+
+RESULT
+Thus, the Java program to perform various String operations was successfully executed and the required results were obtained.
+    */
