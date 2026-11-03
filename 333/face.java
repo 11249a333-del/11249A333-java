@@ -1,6 +1,6 @@
-import java.awt.*; import
-java.io.*; import
-java.applet.*;
+import java.awt.*; 
+import java.io.*; 
+import java.applet.*;
 /*<applet code="face.class" height=300 width=300>
 </applet>*/
 
